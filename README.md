@@ -10,6 +10,14 @@
 Additional documentation can be found at the [Marlin Home Page](https://marlinfw.org/).
 Please test this firmware and let us know if it misbehaves in any way. Volunteers are standing by!
 
+## Ender 3 v3 SE Upload
+
+- Load an SD card with 4068 sectors FAT32 format.
+- Copy file across and use another name to previous.
+- Load SD card into print with lock full forwards (unlocked)
+- Start printer
+- This will undo bed leveling.
+
 ## Marlin 2.0
 
 Marlin 2.0 takes this popular RepRap firmware to the next level by adding support for much faster 32-bit and ARM-based boards while improving support for 8-bit AVR boards. Read about Marlin's decision to use a "Hardware Abstraction Layer" below.
